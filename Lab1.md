@@ -7,4 +7,4 @@
 
 ![Image](cd_going_to_file.png)
 
-3. When running the command cd with a pathway to a file using "Hello.class", it produced an error. This is due to the fact that "Hello.class" is a file and the command cd only work to 
+3. When running the command cd with a pathway to a file using "Hello.class", it produced an error. This is due to the fact that "Hello.class" is a file and the command cd only works to navigate through directories in the terminal as the output states. 
