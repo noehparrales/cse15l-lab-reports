@@ -17,7 +17,7 @@
  
 5. When running the ls command with a pathway to a directory using "lecture1", the output displayed the names of directories and files under the chosen directory. As well, there are distinct differences that shows what are directories and files. Directories are blue and bold and files are black in normal font. Still the terminal has not changed and its still under (/home). No errors occured.
 
-![Image](ls_with_file_pathway.png)
+![Image](ls_with_file_pathway .png)
 
 6. When running the ls command with a pathway to a file using "Hello.java", the output produced the name of the file. This is because ls is used to list the contents names of directories, rather than for files.
 
