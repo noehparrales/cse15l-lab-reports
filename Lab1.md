@@ -8,3 +8,9 @@
 ![Image](cd_going_to_file.png)
 
 3. When running the command cd with a pathway to a file using "Hello.class", it produced an error. This is due to the fact that "Hello.class" is a file and the command cd only works to navigate through directories in the terminal as the output states. 
+
+![Image](ls_no_arg.png) 
+
+4. When running the command ls with no argument, the output showed the directory lecture1. When using ls with no argument, it shows any directories or files in the current directory (/home). Although it shows the directories, it does not nagivate towards the directory like cd so the terminal is still under (/home). There were no errors.
+
+![Image](ls_with_directory.png)
