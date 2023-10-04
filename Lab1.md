@@ -27,8 +27,8 @@
 
 ![Image](cat_with_directory.png) 
 
-8. When running the commmand cat with the argument "lecture1" as the directory, the output was an error and categorized "lecture1" to be a directory. This is because the command cat only works for files.
+8. When running the commmand cat with the argument "lecture1" as a pathway to a directory, the output was an error and categorized "lecture1" to be a directory. This is because the command cat only works for files.
 
-![Image](cat_with_file_pathway.png)
+![Image](cat_with_file.png)
 
-9. 
+9. When running the command cat with the argument "en-us.txt" as a pathway to a file, the output produced the contents of the file. There were no errors
