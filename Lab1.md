@@ -27,4 +27,8 @@
 
 ![Image](cat_with_directory.png) 
 
-8. When running the commmand cat with the argument "lecture1" as the directory, the output categorized "lecture1" to be a directory. 
+8. When running the commmand cat with the argument "lecture1" as the directory, the output was an error and categorized "lecture1" to be a directory. This is because the command cat only works for files.
+
+![Image](cat_with_file_pathway.png)
+
+9. 
