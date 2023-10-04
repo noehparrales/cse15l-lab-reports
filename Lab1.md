@@ -17,9 +17,14 @@
  
 5. When running the ls command with a pathway to a directory using "lecture1", the output displayed the names of directories and files under the chosen directory. As well, there are distinct differences that shows what are directories and files. Directories are blue and bold and files are black in normal font. Still the terminal has not changed and its still under (/home). No errors occured.
 
-![Image](ls_with_file_pathway .png)
+![Image](ls_with_file_pathway.png)
 
 6. When running the ls command with a pathway to a file using "Hello.java", the output produced the name of the file. This is because ls is used to list the contents names of directories, rather than for files.
 
 ![Image](cat_no_arg.png) 
-7. When running the command cat with no argument, the output shows nothing and shifts my 
+
+7. When running the command cat with no argument, the output shows nothing and the terminal changed. This allowed me to add text to the terminal. This was not an error, but was not the expected output I imagined.
+
+![Image](cat_with_directory.png) 
+
+8. When running the commmand cat with the argument "lecture1" as the directory, the output categorized "lecture1" to be a directory. 
