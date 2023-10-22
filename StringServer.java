@@ -5,7 +5,7 @@ class Handler implements URLHandler {
     // The one bit of state on the server: a number that will be manipulated by
     // various requests.
 
-    List <String> string1 = new ArrayList<String>()
+    List <String> string1 = new ArrayList<String>();
     public String handleRequest(URI url) {
         if (url.getPath().equals("/")) {
             return String.format("%s:", string1.toString());
@@ -13,7 +13,7 @@ class Handler implements URLHandler {
             if (url.getPath().contains("/add-message")) {
                 String[] parameters = url.getQuery().split("=");
                 if (parameters[0].equals("s")) {
-                    string1.add(parameters[1], "\n")
+                    string1.add(parameters[1], "\n");
                     return String.format("This word was added %s! It's now %s", parameters[1], string1);
                 }
             }
