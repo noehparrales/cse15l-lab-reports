@@ -1,3 +1,3 @@
-![Image](Lab2CodeAgain .png)
+![Image](lab2_results.png)
 
-![Image](Lab2CodeResults .png)
+
