@@ -11,15 +11,13 @@
 3. When making a request to add a message, handleRequest is called. When the path contains /add-message and includes s, the message provided will be added to the string1 ArrayList. The value for i changes too when a new message is added incrementing by 1. 
 
 Part 2
-![Image](public_keys.png)
+![Image](ls_ssh.png)
 
-![Image](private_key_2.png)
-![Image](end_private_key.png)
+![Image](without_password.png)
 
-![Image](ssh_notworking.png)
-![Image](ssh_notworking1.png)
 
-Before this error I was able to log in without a password, and now I wasn't able to even log into my account. 
+
+
 
 Part 3
 
