@@ -4,10 +4,12 @@
 ![Image](name-example1.png)
 
 
+Finds all files that have given name command, this is important when I want to find a specific file
+
+![Image](name-directories_code.png)
 
 
-![Image](name-example2.png)
-
+Same idea for this code, instead I can use it to find a specific file 
 
 **maxdepth option**
 
