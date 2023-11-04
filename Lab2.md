@@ -13,7 +13,7 @@
 Part 2
 ![Image](ls_ssh.png)
 
-![Image](without_password.png)
+![Image](with_password.png)
 
 
 
