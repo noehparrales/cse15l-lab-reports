@@ -11,6 +11,9 @@
 3. When making a request to add a message, the handleRequest is called. When the path contains /add-message and includes s, the message provided will be added to the string1 ArrayList. The value for i changes too when a new message is added incrementing by 1. 
 
 ## Part 2
+
+
+
 ![Image](ls_ssh.png)
 
 ![Image](with_password.png)
