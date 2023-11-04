@@ -1,3 +1,6 @@
+
+**Part 2**
+
 **name option**
 
 
@@ -43,3 +46,18 @@ This code is finding all file types in the technical directory, its important be
 
 
 This code is finding all dictionary tupes in the technical directory, its important because I can easily acces all dictionary in the given command I provide.
+
+**Depth option**
+
+![Image](depth_dic.png)
+
+using this command will reverse the order of how the directories are being processed from bottom up, which is important to be able to custumize and control the order to prevent loops
+
+![Image](depth-files.png)
+
+
+
+
+![Image](depth-filesout.png)
+
+using this command will reverse the order of how it proccessed which uses the contents of the directory before the directory itself. Its important because it allows for controlling the order.
