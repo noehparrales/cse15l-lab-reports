@@ -1,9 +1,10 @@
-Part 1 
+# Part 1
 ![Image](lab2_code.png)
 
 
 
-![Image](lab2_results.png)
+![Image](example_1.png)
+![Image](example_2.png)
 
 1. The two methods that are being called are main method NumberServer and Handler
 2. revelant arguments in these methods is the args in the main method since it contains an element which is relevant to port. string1 in Handle adds and updates the message. And i in Handle increments when a new message is added
