@@ -20,6 +20,8 @@ When code passes
 }
 ```
 
+![Image](fail_output.png)
+
 ```
 before
   static int[] reversed(int[] arr) {
