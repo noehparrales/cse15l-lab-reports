@@ -1,6 +1,6 @@
 **Part 1**
-
-# code block
+```
+code block
 @Test
     public void testReversedUnchangedArray() {
         int[] arr = {1, 2, 3, 4, 5}; // An input array
@@ -10,7 +10,7 @@
         assertArrayEquals(arr, ArrayExamples.reversed(arr)); 
     }
 }
-
+```
 
 
 **Part 2**
