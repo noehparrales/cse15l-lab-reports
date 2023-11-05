@@ -1,3 +1,17 @@
+**Part 1**
+
+# code block
+@Test
+    public void testReversedUnchangedArray() {
+        int[] arr = {1, 2, 3, 4, 5}; // An input array
+
+        ArrayExamples.reversed(arr);
+
+        assertArrayEquals(arr, ArrayExamples.reversed(arr)); // This test should fail because the code is incorrect
+    }
+}
+
+
 
 **Part 2**
 
