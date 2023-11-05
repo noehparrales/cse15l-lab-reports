@@ -1,17 +1,45 @@
 **Part 1**
 ```
-code block
+When code will fail
+ @Test
+    public void testwillfail(){
+      int[] arr = {1, 2, 3, 4, 5}; 
+      int[] expected = {5, 4, 3, 2, 1};    
+      ArrayExamples.reversed(arr);
+    assertArrayEquals(expected,ArrayExamples.reversed(arr));
+}
+
+```
+When code passes 
 @Test
     public void testReversedUnchangedArray() {
-        int[] arr = {1, 2, 3, 4, 5}; // An input array
-
-        ArrayExamples.reversed(arr);
-
-        assertArrayEquals(arr, ArrayExamples.reversed(arr)); 
+        int[] arr = {1, 2, 3, 4, 5}; 
+    assertArrayEquals(arr, ArrayExamples.reversed(arr)); 
     }
 }
 ```
 
+```
+before
+  static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = newArray[arr.length - i - 1];
+    }
+    return arr;
+  }
+```
+
+```
+after
+ static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      newArray[i] = arr[arr.length - i - 1];
+    }
+    return newArray;
+  }
+```
 
 **Part 2**
 
