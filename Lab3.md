@@ -7,7 +7,7 @@
 
         ArrayExamples.reversed(arr);
 
-        assertArrayEquals(arr, ArrayExamples.reversed(arr)); // This test should fail because the code is incorrect
+        assertArrayEquals(arr, ArrayExamples.reversed(arr)); 
     }
 }
 
