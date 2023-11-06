@@ -13,9 +13,9 @@
 **Part 2**
 
 
-
-![Image](ls_ssh.png)
 ![Image](private_key3.png)
+![Image](ls_ssh.png)
+
 ![Image](with_password.png)
 
 
