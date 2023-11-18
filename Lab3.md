@@ -3051,7 +3051,8 @@ find /path/to/search -name "filename.txt"
 
 ```
 
-here I asked to show me what maxdepth 1 and 2 do and to show me exmaples of its use
+here I asked to show me what maxdepth 1 and 2 do and to show me exmaples of its use.
+ChatGPT explained that this command is used to limit the depth of search in directories and how many subdirectories to search into. The way I used this information was to find files in /technical and inside its subdirectories seeing how the output would change when searching through maxdepth 1 and 2. 
 
 ```
 1. -maxdepth 1 (Search within the current directory only):
@@ -3097,7 +3098,7 @@ bash
 Copy code
 find /mydir -maxdepth 2 -type f -name "file2.txt"
 ```
-as well for type I asked it the similar format of questions 
+as well for type I asked, "how do I use -type option and show me examples" . ChatGPT explained that the -type option us used to find anything of a specified type. Some examples of this use can be through files, directories, and symbolic links. I used this information to find documents of type d and type f. This is useful because it allows me to limit my searches when I need a particular type of a search. 
 
 ```
 The -type option in the find command is used to specify the type of files or directories you want to search for. It allows you to filter your search based on the file type. Here's how it's used:
@@ -3113,7 +3114,7 @@ d: Directories.
 
 ```
 
-lastly I asked for it to show me the depth command and how it can be used 
+lastly I asked for it to show me the depth command and how it can be used. ChatGPT explained to me that the command depth is used to process the contents of a directory before the directory itself. Meaning that I can use this command goes into subdirectories first, looks over the actual contents, and then finally process the directory itself. The way I used this command was to look over the directory ./technical and to look at the contents inside of type f which returned the output of all the files within the directory. As well same instructions when I used this command for type d 
 ```
 
 The -depth option in the find command is used to control the order in which directories and their contents are processed during a search. It affects the depth-first traversal of the directory structure. Here's how it's used:
