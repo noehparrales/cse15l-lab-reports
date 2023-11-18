@@ -3043,10 +3043,12 @@ I asked chatgbt to provide command examples of find and give me a description of
 
 here are the outputs it provided me with
 
-I asked it to show me an example of using the command find when searching for a file name 
+I asked it to show me an example of using the command find when searching for a file name. ChatGPT's explained that "-name "filename.txt"" looks in a specified file and name that im looking for. As well provided a format of how I can use the command, "find /path/to/search -name "filename.txt"" . In doing so, I used the example format to find the specific text file of my choice. 
 
 ```
 find /path/to/search -type f -name "filename.txt"
+find /path/to/search -name "filename.txt"
+
 ```
 
 here I asked to show me what maxdepth 1 and 2 do and to show me exmaples of its use
