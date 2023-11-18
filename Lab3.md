@@ -51,7 +51,8 @@ The issue with the initial code is that rather than copying the elements from ar
 
 
 ![Image](name-example1.png)
-```$ find ./technical -name "rr74.txt" 
+```
+$ find ./technical -name "rr74.txt" 
 ./technical/biomed/rr74.txt
 ```
 
