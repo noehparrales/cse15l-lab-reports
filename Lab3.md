@@ -21,6 +21,8 @@
 
 ![Image](fail_output.png)
 
+![Image](when_test_passed.png)
+
 ```
   static int[] reversed(int[] arr) {
     int[] newArray = new int[arr.length];
