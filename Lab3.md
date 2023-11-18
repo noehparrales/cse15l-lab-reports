@@ -2075,6 +2075,22 @@ This code is finding all dictionary tupes in the technical directory, its import
 
 ![Image](depth_dic.png)
 
+```
+$ find ./technical -type d -depth
+find: warning: you have specified the global option -depth after the argument -type, but global options are not positional, i.e., -depth affects tests specified before it as well as those specified after it.  Please specify global options before other arguments.        
+./technical/911report
+./technical/biomed
+./technical/government/About_LSC
+./technical/government/Alcohol_Problems
+./technical/government/Env_Prot_Agen
+./technical/government/Gen_Account_Office
+./technical/government/Media
+./technical/government/Post_Rate_Comm
+./technical/government
+./technical/plos
+./technical
+```
+
 using this command will reverse the order of how the directories are being processed from bottom up, which is important to be able to custumize and control the order to prevent loops
 
 ![Image](depth-files.png)
