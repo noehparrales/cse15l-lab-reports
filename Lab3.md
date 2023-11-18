@@ -50,7 +50,6 @@ The issue with the initial code is that rather than copying the elements from ar
 **name option**
 
 
-![Image](name-example1.png)
 ```
 $ find ./technical -name "rr74.txt" 
 ./technical/biomed/rr74.txt
@@ -58,7 +57,7 @@ $ find ./technical -name "rr74.txt"
 
 Finds all files that have given name command, this is important when I want to find a specific file
 
-![Image](name_directories_code.png)
+
 ```
 $ find ./technical -type d -name "911report"
 ./technical/911report
@@ -70,7 +69,6 @@ Same idea for this code, instead I can use it to find a specific file
 **maxdepth option**
 
 
-![Image](maxdepth_1.png)
 
 ```
 $ find ./technical/ -maxdepth 1 -type d
@@ -83,10 +81,8 @@ $ find ./technical/ -maxdepth 1 -type d
 
 This command finds and limits its depth of how much it travels in a directory when finding directories, its important when i want to see how many directories are in given depth 
 
-![Image](maxdepth_2code.png)
 
 
-![Image](maxdepth_2output.png)
 
 ```
 $ find ./technical -maxdepth 2 -type f
@@ -1107,10 +1103,8 @@ This command finds and limits its depth of how much it travels in a directory wh
 **type option**
 
 
-![Image](type_file_code.png)
 This code is finding all file types in the technical directory, its important because Im able to easily access all types of files.
 
-![Image](type_file_output.png)
 
 ```
 $ find ./technical -type f 
@@ -2051,7 +2045,7 @@ $ find ./technical -type f
 This code is finding all file types in the technical directory, its important because Im able to easily access all types of files.
 
 
-![Image](type_dic.png)
+
 
 ```
 $ find ./technical -type d
@@ -2073,7 +2067,7 @@ This code is finding all dictionary tupes in the technical directory, its import
 
 **Depth option**
 
-![Image](depth_dic.png)
+
 
 ```
 $ find ./technical -type d -depth
@@ -2093,12 +2087,10 @@ find: warning: you have specified the global option -depth after the argument -t
 
 using this command will reverse the order of how the directories are being processed from bottom up, which is important to be able to custumize and control the order to prevent loops
 
-![Image](depth-files.png)
 
 
 
 
-![Image](depth-filesout.png)
 
 ```
 $ find ./technical -type f -depth
