@@ -1,6 +1,5 @@
 **Part 1**
 ```
-When code will fail
  @Test
     public void testwillfail(){
       int[] arr = {1, 2, 3, 4, 5}; 
@@ -11,7 +10,7 @@ When code will fail
 
 ```
 ```
-When code passes 
+
 @Test
     public void testReversedUnchangedArray() {
         int[] arr = {1, 2, 3, 4, 5}; 
@@ -23,7 +22,6 @@ When code passes
 ![Image](fail_output.png)
 
 ```
-before
   static int[] reversed(int[] arr) {
     int[] newArray = new int[arr.length];
     for(int i = 0; i < arr.length; i += 1) {
@@ -34,7 +32,6 @@ before
 ```
 
 ```
-after
  static int[] reversed(int[] arr) {
     int[] newArray = new int[arr.length];
     for(int i = 0; i < arr.length; i += 1) {
@@ -43,7 +40,7 @@ after
     return newArray;
   }
 ```
-The issue with the initial code is that rather than copying the elements from arr, it was copying the elements from newArray which its values contained 0's. As well, returning arr instead of the newArray.
+The issue with the initial code is that rather than copying the elements from arr, it was copying the elements from newArray which its values contained 0's. As well, returning arr instead of the newArray. In order to this issue I assigned the reversed values to the "newArray" and then make it return the newArray rather than the original. 
 
 
 **Part 2**
