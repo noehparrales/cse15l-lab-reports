@@ -59,6 +59,10 @@ $ find ./technical -name "rr74.txt"
 Finds all files that have given name command, this is important when I want to find a specific file
 
 ![Image](name_directories_code.png)
+```
+$ find ./technical -type d -name "911report"
+./technical/911report
+```
 
 
 Same idea for this code, instead I can use it to find a specific file 
