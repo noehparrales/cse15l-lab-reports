@@ -2053,6 +2053,21 @@ This code is finding all file types in the technical directory, its important be
 
 ![Image](type_dic.png)
 
+```
+$ find ./technical -type d
+./technical
+./technical/911report
+./technical/biomed
+./technical/government
+./technical/government/About_LSC
+./technical/government/Alcohol_Problems
+./technical/government/Env_Prot_Agen
+./technical/government/Gen_Account_Office
+./technical/government/Media
+./technical/government/Post_Rate_Comm
+./technical/plos
+```
+
 
 This code is finding all dictionary tupes in the technical directory, its important because I can easily acces all dictionary in the given command I provide.
 
