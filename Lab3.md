@@ -72,6 +72,15 @@ Same idea for this code, instead I can use it to find a specific file
 
 ![Image](maxdepth_1.png)
 
+```
+$ find ./technical/ -maxdepth 1 -type d
+./technical/
+./technical/911report
+./technical/biomed
+./technical/government
+./technical/plos
+```
+
 This command finds and limits its depth of how much it travels in a directory when finding directories, its important when i want to see how many directories are in given depth 
 
 ![Image](maxdepth_2code.png)
