@@ -15,7 +15,7 @@ __Lab 7 Steps 4 - 9__
   - first I had to use the command: vim ListExamples.java + `<enter>`
   - then I pressed `<j>` 10 times to go to line where one of the problems is at, pressed `<l>` 16 times to go right
   - the first problem was that result.add(0,s) has the 0 which makes the first test case fail 
-  -  pressed `<x`> ttwice to delete the unwanted characters
+  -  pressed `<x>` ttwice to delete the unwanted characters
   - from there, I pressed `<j>` 29 more times to go to the next code issue, and `<h>` 6 times to go left
   - the next issue is that index1 should be index2
   - go to the unwanted character and press `<x>`
