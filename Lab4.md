@@ -1,5 +1,5 @@
 4) Logged into ieng6
-   - ssh cs15lfa23oq@ieng6.ucsd.edu + <enter> 
+   - ssh cs15lfa23oq@ieng6.ucsd.edu + "<enter> "
 
 ![Image](logging_in.png)
 5) clone the repository using the SSH URL
