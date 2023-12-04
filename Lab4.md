@@ -4,7 +4,7 @@ __Lab 7 Steps 4 - 9__
 4) Logged into ieng6
    - ssh cs15lfa23oq@ieng6.ucsd.edu + `<enter>`
 
-![Image](logging_in.png)
+![Image](logging_in_without_password.png)
 5) clone the repository using the SSH URL
   - git clone git@github.com:noehparrales/lab7.git + `<enter>`
 ![Image](git_clone.png)
