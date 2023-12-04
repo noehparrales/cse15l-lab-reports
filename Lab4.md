@@ -1,6 +1,8 @@
 __Lab 7 Steps 4 - 9__
 
-*when I fixing the coding format it wouldnt work, I have everything with <> under `<enter>` for example but when i print it wont print right*
+*when I was fixing the coding format issue it wouldnt work, everything that has <> for example `<enter>` shows up properly when shown using the website link, but not when I print out as a PDF*
+
+`<enter>`
 4) Logged into ieng6
    - ssh cs15lfa23oq@ieng6.ucsd.edu + `<enter>`
 
