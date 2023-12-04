@@ -9,7 +9,7 @@ __Lab 7 Steps 4 - 9__
   - git clone git@github.com:noehparrales/lab7.git + ```<enter>```
 ![Image](git_clone.png)
 6) test the code
-  - bash test.sh + ```<enter>` ``
+  - bash test.sh + ```<enter>```
 ![Image](failed_test.png)
 7) edited code using vim
   - first I had to use the command: vim ListExamples.java + ```<enter>```
