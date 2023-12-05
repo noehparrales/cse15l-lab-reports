@@ -7,6 +7,8 @@ Labs
 
 Hey Im having an issue with this coding assignment of the lab. Im getting a "File not found" error message and I dont understand why. Below is the error and code I have so far. 
 
+
+
 ![Image](error.png)
 
 
