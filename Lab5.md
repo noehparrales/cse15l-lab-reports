@@ -9,7 +9,7 @@ Hey Im having an issue with this coding assignment of the lab. Im getting a "Fil
 
 
 
-![Image](error.png)
+![Image](code_not_working.png)
 
 
 ```
@@ -60,14 +60,29 @@ public class h {
     }
 }
 ```
+2)
 # TA Response
 
 Hello! At first glance the issue your having is coming from finding the 'input.txt' file. A few things you could try is making sure youre in the right directory using 'pwd', then ls to see if your directory is where your file is at. If the file is somewhere else, in your code include its absolute path.
 
 If this doesn't work reply to this post, good luck! 
 
+3)
 # Student Response
 
+![Image](code_working.png)
+
 After trying to figure out the issue I did realize that I was looking for a file that was not in the same directory. When I used the command pwd, it showed that I was in the the absolute path /Users/Noeh/hh/hhh, and when I used the command ls, only my h.java file showed and not the index.txt file I was looking for. So in order to fix the issue I had to include the absolute path of where my index.txt file was at. 
+
+
+4) file and directory structure
+   hh
+   |    hhh
+   |    |    h.java
+   |    |    script.sh
+   |    hhhh
+   |    |    index.txt
+
+   contents 
 
 
