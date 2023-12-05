@@ -9,10 +9,35 @@ Hey Im having an issue with this coding assignment of the lab. Im getting a "Fil
 
 
 
-![Image](code_not_working.png)
+![Image](bad_code.png)
 
 
-```
+
+2)
+# TA Response
+
+Hello! At first glance the issue your having is coming from finding the 'input.txt' file. A few things you could try is making sure youre in the right directory using 'pwd', then ls to see if your directory is where your file is at. If the file is somewhere else, in your code include its absolute path.
+
+If this doesn't work reply to this post, good luck! 
+
+3)
+# Student Response
+
+![Image](good_code.png)
+
+After trying to figure out the issue I did realize that I was looking for a file that was not in the same directory. When I used the command pwd, it showed that I was in the the absolute path /Users/Noeh/hh/hhh, and when I used the command ls, only my h.java file showed and not the index.txt file I was looking for. So in order to fix the issue I had to include the absolute path of where my index.txt file was at. 
+
+
+4) file and directory structure
+   hh
+   |    hhh
+   |    |    h.java
+   |    |    script.sh
+   |    hhhh
+   |    |    index.txt
+
+   contents of h.java before fixing the bug
+   ```
 package hhh;
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -50,39 +75,35 @@ public class h {
     }
 
     public void processLine(String line) {
-        // Simulate processing each line, but introduce a bug
         System.out.println(line + " " + generateMysteriousCharacters());
     }
 
     public String generateMysteriousCharacters() {
-        // Simulate a bug causing unexpected characters
         return "\u001B[31m???\u001B[0m";
     }
 }
 ```
-2)
-# TA Response
+contents of bash script.sh
 
-Hello! At first glance the issue your having is coming from finding the 'input.txt' file. A few things you could try is making sure youre in the right directory using 'pwd', then ls to see if your directory is where your file is at. If the file is somewhere else, in your code include its absolute path.
+```
+javac -d . h.java
 
-If this doesn't work reply to this post, good luck! 
+```
+if [ $? -eq 0 ]; then
+    echo "Compilation successful"
 
-3)
-# Student Response
+    java h.java
+else
+    echo "Compilation failed"
+fi
+```
 
-![Image](code_working.png)
+contents of index.txt
+```
+hi
+```
+__Description__
+In order to fix the bug I needed to include the absolute path to the file I was looking for. In the original code I was looking for "index.txt" without actually having it being located in the same directory. So to fix the issue I had to include the path "/Users/Noeh/hh/hhhh/index.txt" at line 10. 
 
-After trying to figure out the issue I did realize that I was looking for a file that was not in the same directory. When I used the command pwd, it showed that I was in the the absolute path /Users/Noeh/hh/hhh, and when I used the command ls, only my h.java file showed and not the index.txt file I was looking for. So in order to fix the issue I had to include the absolute path of where my index.txt file was at. 
-
-
-4) file and directory structure
-   hh
-   |    hhh
-   |    |    h.java
-   |    |    script.sh
-   |    hhhh
-   |    |    index.txt
-
-   contents 
 
 
