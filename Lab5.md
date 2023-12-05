@@ -109,3 +109,7 @@ In order to fix the bug I needed to include the absolute path to the file I was 
 
 
 
+# Part 2
+
+I think something cool that Im gonna take from this class is how to use git and the commands such as add, commit, and push. Before this class I had no idea what git was or how even use it. Although I still need alot more practice, I feel like my knowledge and capabilities using the material I learned has expanded. As well the labs were good and the TA's were always helpful!
+
