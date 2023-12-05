@@ -13,6 +13,7 @@ Hey Im having an issue with this coding assignment of the lab. Im getting a "Fil
 
 
 ```
+package hhh;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
@@ -21,12 +22,20 @@ public class h {
 
     public static void main(String[] args) {
         h fileSystem = new h();
-        fileSystem.readFromFile("input.txt");
+        fileSystem.readFromFile("index.txt");
     }
 
     public void readFromFile(String fileName) {
         try {
             File file = new File(fileName);
+
+            if (file.exists() && !file.isDirectory()) {
+                System.out.println("File found: " + fileName);
+            } else {
+                System.out.println("File not found: " + fileName);
+                return;
+            }
+
             Scanner scanner = new Scanner(file);
 
             while (scanner.hasNextLine()) {
@@ -57,6 +66,8 @@ Hello! At first glance the issue your having is coming from finding the 'input.t
 
 If this doesn't work reply to this post, good luck! 
 
+# Student Response
 
+After trying to figure out the issue I did realize that I was looking for a file that was not in the same directory. When I used the command pwd, it showed that I was in the the absolute path /Users/Noeh/hh/hhh, and when I used the command ls, only my h.java file showed and not the index.txt file I was looking for. So in order to fix the issue I had to include the absolute path of where my index.txt file was at. 
 
 
