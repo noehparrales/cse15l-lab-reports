@@ -5,7 +5,9 @@ File not found error message
 __Category__
 Labs
 
+Hey Im having an issue with this coding assignment of the lab. Im getting a "File not found" error message and I dont understand why. Below is the error and code I have so far. 
 
+![Image](error.png)
 
 
 ```
@@ -47,3 +49,12 @@ public class h {
     }
 }
 ```
+# TA Response
+
+Hello! At first glance the issue your having is coming from finding the 'input.txt' file. A few things you could try is making sure youre in the right directory using 'pwd', then ls to see if your directory is where your file is at. If the file is somewhere else, in your code include its absolute path.
+
+If this doesn't work reply to this post, good luck! 
+
+
+
+
