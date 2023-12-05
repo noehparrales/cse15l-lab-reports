@@ -29,15 +29,16 @@ After trying to figure out the issue I did realize that I was looking for a file
 
 
 4) file and directory structure
-   hh
+```
+    hh
    |    hhh
    |    |    h.java
    |    |    script.sh
    |    hhhh
    |    |    index.txt
-
+```
    contents of h.java before fixing the bug
-   ```
+```
 package hhh;
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -83,12 +84,13 @@ public class h {
     }
 }
 ```
+
+
 contents of bash script.sh
 
 ```
 javac -d . h.java
 
-```
 if [ $? -eq 0 ]; then
     echo "Compilation successful"
 
